@@ -1,0 +1,59 @@
+.items{
+    color: gray;
+    font-size: 14px;
+}
+
+.red{
+    color:red;
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section{
+    position: relative;
+    margin-top: 80px;
+    background-image: url('image.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#arch{
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+
+.card{
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    opacity: 0.5;
+}
